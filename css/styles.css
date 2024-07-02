@@ -1,0 +1,19 @@
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+.green, .blue, .red{
+    background-color: aquamarine;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
