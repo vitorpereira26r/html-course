@@ -1,0 +1,16 @@
+p{
+    color: aqua;
+}
+
+.name{
+    color: cornflowerblue;
+}
+
+#p-id{
+    color: brown;
+}
+
+button:hover{
+    color: blue;
+    background-color: black;
+}
