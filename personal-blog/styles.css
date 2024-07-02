@@ -16,11 +16,17 @@
 
 .personal-information p{
     margin: 0px 20px;
-    border: 5px;
+    border: 1px;
     border-style: solid;
-    padding: 5px;
-    border-color: cornflowerblue;
+    padding: 15px 30px;
+    border-color: black;
     border-radius: 5px;
+    background-color: dimgrey;
+}
+
+.personal-information p:hover{
+    background-color:aliceblue;
+    color: black;
 }
 
 .routine{
@@ -56,15 +62,6 @@
 .routine-table tr:hover {
     background-color:aliceblue;
     color: black;
-}
-
-.hobbies{
-}
-
-.music{
-}
-
-.trip{
 }
 
 .container{
@@ -108,5 +105,5 @@ h2{
 }
 
 p{
-    color: navy;
+    color: white;
 }
