@@ -1,0 +1,112 @@
+.header{
+    border-top: none;
+    border-bottom: 5px ridge aquamarine;
+    border-left: none;
+    border-right: none;
+}
+
+.personal-information{
+    padding: 20px;
+    display: flex;
+    border-top: none;
+    border-bottom: 5px ridge aquamarine;
+    border-left: none;
+    border-right: none;
+}
+
+.personal-information p{
+    margin: 0px 20px;
+    border: 5px;
+    border-style: solid;
+    padding: 5px;
+    border-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+.routine{
+    padding: 20px;
+    border-top: none;
+    border-bottom: 5px ridge aquamarine;
+    border-left: none;
+    border-right: none;
+}
+
+.routine-table{
+    width: 40%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.routine-table th, .routine-table td {
+    border: 1px solid #000000;
+    padding: 12px;
+    text-align: left;
+}
+
+.routine-table th {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.routine-table tr{
+    background-color:dimgrey;
+    color: white;
+}
+
+.routine-table tr:hover {
+    background-color:aliceblue;
+    color: black;
+}
+
+.hobbies{
+}
+
+.music{
+}
+
+.trip{
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+}
+
+.container div {
+    flex: 1;
+    min-width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color:dimgrey;
+    color: white;
+}
+
+.container h2{
+    color: inherit;
+}
+
+.container div:hover{
+    background-color:aliceblue;
+    color: black;
+}
+
+.container p{
+    color: inherit;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    color: dimgrey;
+    font-size: 25px;
+}
+
+p{
+    color: navy;
+}
