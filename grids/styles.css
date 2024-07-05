@@ -1,0 +1,51 @@
+.header{
+    max-width: 20vw;
+    margin: 0 40vw;
+    background-color: aquamarine;
+    text-align: center;
+    color: darkgray;
+    border-radius: 3px;
+}
+
+.links{
+    max-width: 10vw;
+    margin: 1vw 45vw;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: grey;
+}
+
+.links a{
+    color:white;
+}
+
+.content{
+    max-width: 90vw;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.card1{
+    width: 35vw;
+    background-color: cornflowerblue;
+    border-radius: 2px;
+    margin: 1vw 5vw;
+}
+
+.card2{
+    width: 20vw;
+    background-color: violet;
+    border-radius: 3px;
+    float: left;
+    margin: 4vw 5vw;
+}
+
+.card1, .card2{
+    height: 100px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
