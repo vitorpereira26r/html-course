@@ -22,6 +22,8 @@
     vertical-align: middle;
     line-height: normal;
     margin-left: 2vw;
+    text-decoration: none;
+    color: black;
 }
 
 .navOptions:hover{
@@ -84,4 +86,67 @@
     transition-timing-function: linear;
     height: 330px;
     cursor: pointer;
+}
+
+.registerForm{
+    background-color: white;
+    border-radius: 3px;
+    padding: 5vw;
+}
+
+.formInput{
+    text-align: left;
+    margin-bottom: 2vh;
+}
+
+.formInput label{
+    display: block;
+}
+
+.formInput input[type="text"],
+.formInput input[type="email"],
+.formInput input[type="password"]{
+    width: 70vw;
+    height: 5vh;
+    margin: 1vh 0;
+    border-radius: 3px;
+}
+
+.formInput input[type="text"]:focus,
+.formInput input[type="email"]:focus,
+.formInput input[type="password"]:focus{
+    border-color: lightslategrey;
+    outline: black;
+}
+
+.formInput input[type="checkbox"]{
+    margin-left: 1vw;
+    margin-right: 3vw;
+    cursor: pointer;
+}
+
+.formInput input{
+    border: 1px solid #a8a8a8;
+}
+
+.formInput input[type="submit"]{
+    background-color: yellow;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 3px;
+    border: 0;
+    color: slategrey;
+}
+
+.formInput input[type="submit"]:hover{
+    background-color: rgb(253, 253, 63);
+    cursor: pointer;
+}
+
+.genderOptions{
+    display: flex;
+}
+
+.genderOptions label{
+    font: normal;
 }
