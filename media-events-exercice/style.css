@@ -1,0 +1,73 @@
+body{
+    background-color:grey;
+}
+
+.header, .formSection{
+    background-color:slategray;
+    border-radius: 5px;
+    color: white;
+}
+
+.header{
+    text-align: center;
+    background-color:slategray;
+    max-width: 20vw;
+    margin: 0 40vw;
+    
+}
+
+.formSection{
+    max-width: 80vw;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5vh 10vw;
+    padding: 5vh 4vw;
+}
+
+.formItem{
+    text-align: left;
+}
+
+.formItem input[type="text"]{
+    width: 70vw;
+    height: 5vh;
+    padding: 1vh 1vw;
+    font-size: 2vh;
+    border-radius: 5px;
+}
+
+.formItem button{
+    text-align: center;
+    margin: 3vh 0;
+    background-color: slateblue;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    width: 20vw;
+    height: 5vh;
+}
+
+.formItem button:hover{
+    background-color: rgb(116, 100, 223);
+    color: rgb(255, 235, 235);
+}
+
+.formItem input[type="checkbox"]{
+    margin-left: 1vw;
+    margin-right: 3vw;
+    cursor: pointer;
+}
+
+.formItem label{
+    margin: 1vh 0;
+    font-size: 20px;
+    display: block;
+}
+
+.weekDays{
+    display: flex;
+}
+
+.purple-border {
+    border: 2px solid purple;
+}
