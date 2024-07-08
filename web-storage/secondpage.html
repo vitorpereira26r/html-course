@@ -7,9 +7,13 @@
 </head>
 <body>
     <h1>Second page</h1>
+    <h2>Session Storage</h2>
     <p id="name"></p>
+    <h2>Local Storage</h2>
+    <p id="local"></p>
     <script>
         document.getElementById('name').textContent = window.sessionStorage.getItem("name");
+        document.getElementById('local').textContent = window.localStorage.getItem("local");
     </script>
 </body>
 </html>
